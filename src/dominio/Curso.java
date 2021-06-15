@@ -32,6 +32,7 @@ public class Curso {
         double promedio=0;
         for(int i=0;i<12;i++){
             //Necesitamos de una auxiliar para almacenar notas
+           //codigo duplicado en el aterior metodo
             double aux=notas[i];
             promedio=aux+promedio;
         }
